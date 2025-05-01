@@ -52,3 +52,19 @@
     background-position: center;
     border-radius: 4px;
   }
+
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+    }
+
+    .about-image {
+      width: 100%;
+      min-height: 300px;
+      margin-top: 2rem;
+    }
+
+    .about-text h2 {
+      font-size: 1.8rem;
+    }
+  }

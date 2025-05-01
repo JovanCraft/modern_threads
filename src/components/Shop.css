@@ -66,3 +66,18 @@
     font-size: 0.95rem;
     color: #555;
   }
+
+  @media (max-width: 768px) {
+    .shop-header h2 {
+      font-size: 1.5rem;
+    }
+
+    .product-grid {
+      grid-template-columns: 1fr; /* Stack cards in 1 column */
+      gap: 1.5rem;
+    }
+
+    .product-card {
+      max-width: 100%;
+    }
+  }

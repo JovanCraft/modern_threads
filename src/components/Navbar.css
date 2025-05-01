@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+    align-items: center;
+    background-color: white;
+  }
+
+  .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  .nav-links a {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+  }
+
+  .contact-btn {
+    border: 2px solid black;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+  }

@@ -1,0 +1,31 @@
+.hero {
+    background-image: url('https://free-images.com/md/54f8/clothing_store_shop_boutique.jpg'); /* Replace with your real image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 3rem;
+  }
+
+  .hero-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .btn-green {
+    background-color: #27ae60;
+    padding: 0.75rem 1.5rem;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+  }
